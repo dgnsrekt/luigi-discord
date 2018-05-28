@@ -12,7 +12,7 @@ tests_require = ['pytest']
 
 setup(
     name='luigi-discord',
-    version='0.1.0',
+    version='0.1.1',
     description='Send Discord notifications to report on Luigi pipelines',
     long_description=long_description,
     author='run2dev',

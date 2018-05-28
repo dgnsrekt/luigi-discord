@@ -22,7 +22,7 @@ class NextTask(luigi.Task):
         return HelloWorldTask()
 
     def run(self):
-        assert self.input() == True
+        assert self.input() == False
 
 
 url = 'https://discordapp.com/api/webhooks/{}/{}'
