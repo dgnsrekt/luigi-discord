@@ -15,10 +15,10 @@ setup(
     version='0.0.1',
     description='Send Discord notifications to report on Luigi pipelines',
     long_description=long_description,
-    author='run2dev'
-    author_email='run2devtest@gmail.com'
+    author='run2dev',
+    author_email='run2devtest@gmail.com',
     url='https://github.com/run2dev',
-    license='MIT'
+    license='MIT',
     packages=find_packages(),
     install_requires=install_requires,
     tests_require=tests_require,
